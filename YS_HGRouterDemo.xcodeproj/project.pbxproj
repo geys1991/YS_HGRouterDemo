@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14980823348C706AD835F42B /* libPods-YS_HGRouterDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6091517C6BB4F582306520 /* libPods-YS_HGRouterDemoUITests.a */; };
+		3D36717A1F6B7C4700C739D6 /* YSMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3671791F6B7C4700C739D6 /* YSMaskView.m */; };
+		3D36717D1F6BBD9100C739D6 /* YSWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36717C1F6BBD9100C739D6 /* YSWKWebViewController.m */; };
+		3D3671811F6BC37300C739D6 /* HGMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3671801F6BC37300C739D6 /* HGMediator.m */; };
+		3D3671841F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3671831F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m */; };
+		3DB0A6C21F68D355009D41CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C11F68D355009D41CE /* main.m */; };
+		3DB0A6C51F68D355009D41CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C41F68D355009D41CE /* AppDelegate.m */; };
+		3DB0A6C81F68D355009D41CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C71F68D355009D41CE /* ViewController.m */; };
+		3DB0A6CB1F68D355009D41CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C91F68D355009D41CE /* Main.storyboard */; };
+		3DB0A6CD1F68D355009D41CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0A6CC1F68D355009D41CE /* Assets.xcassets */; };
+		3DB0A6D01F68D355009D41CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0A6CE1F68D355009D41CE /* LaunchScreen.storyboard */; };
+		3DB0A6DB1F68D355009D41CE /* YS_HGRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6DA1F68D355009D41CE /* YS_HGRouterDemoTests.m */; };
+		3DB0A6E61F68D355009D41CE /* YS_HGRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */; };
+		3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1431F69400A00538D2B /* YSTransitionManager.m */; };
+		3DECE14E1F694DDE00538D2B /* YSModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */; };
+		3DECE1511F6A39CD00538D2B /* Target_kModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */; };
+		3DECE1531F6A5F5700538D2B /* HGRouterTargetHostMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DECE1521F6A5F5700538D2B /* HGRouterTargetHostMap.plist */; };
+		3DECE1581F6A69C200538D2B /* YSModuleAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1571F6A69C200538D2B /* YSModuleAModel.m */; };
+		3DFD8E211F69268300DFA779 /* YSURLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD8E201F69268300DFA779 /* YSURLGenerator.m */; };
+		539F42456BAF0017C0039088 /* libPods-YS_HGRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFD5DE8D9DD754FAD8785D2 /* libPods-YS_HGRouterDemo.a */; };
+		F35C6489E78BBD1CAC1954E2 /* libPods-YS_HGRouterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DBC2B9557ADA6F3AFA55FF /* libPods-YS_HGRouterDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB0A6D71F68D355009D41CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB0A6B51F68D355009D41CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB0A6BC1F68D355009D41CE;
+			remoteInfo = YS_HGRouterDemo;
+		};
+		3DB0A6E21F68D355009D41CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB0A6B51F68D355009D41CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB0A6BC1F68D355009D41CE;
+			remoteInfo = YS_HGRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3671781F6B7C4700C739D6 /* YSMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSMaskView.h; sourceTree = "<group>"; };
+		3D3671791F6B7C4700C739D6 /* YSMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSMaskView.m; sourceTree = "<group>"; };
+		3D36717B1F6BBD9100C739D6 /* YSWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWKWebViewController.h; sourceTree = "<group>"; };
+		3D36717C1F6BBD9100C739D6 /* YSWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWKWebViewController.m; sourceTree = "<group>"; };
+		3D36717F1F6BC37300C739D6 /* HGMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGMediator.h; sourceTree = "<group>"; };
+		3D3671801F6BC37300C739D6 /* HGMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGMediator.m; sourceTree = "<group>"; };
+		3D3671821F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HGMediator+HGMediatorCategory.h"; sourceTree = "<group>"; };
+		3D3671831F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HGMediator+HGMediatorCategory.m"; sourceTree = "<group>"; };
+		3DB0A6BD1F68D355009D41CE /* YS_HGRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YS_HGRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0A6C11F68D355009D41CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DB0A6C31F68D355009D41CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DB0A6C41F68D355009D41CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DB0A6C61F68D355009D41CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DB0A6C71F68D355009D41CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DB0A6CA1F68D355009D41CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB0A6CC1F68D355009D41CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB0A6CF1F68D355009D41CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB0A6D11F68D355009D41CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB0A6D61F68D355009D41CE /* YS_HGRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YS_HGRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0A6DA1F68D355009D41CE /* YS_HGRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YS_HGRouterDemoTests.m; sourceTree = "<group>"; };
+		3DB0A6DC1F68D355009D41CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB0A6E11F68D355009D41CE /* YS_HGRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YS_HGRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YS_HGRouterDemoUITests.m; sourceTree = "<group>"; };
+		3DB0A6E71F68D355009D41CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DECE1411F693E9C00538D2B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3DECE1421F69400A00538D2B /* YSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTransitionManager.h; sourceTree = "<group>"; };
+		3DECE1431F69400A00538D2B /* YSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTransitionManager.m; sourceTree = "<group>"; };
+		3DECE14C1F694DDE00538D2B /* YSModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSModuleAViewController.h; sourceTree = "<group>"; };
+		3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSModuleAViewController.m; sourceTree = "<group>"; };
+		3DECE14F1F6A39CD00538D2B /* Target_kModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_kModuleA.h; sourceTree = "<group>"; };
+		3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_kModuleA.m; sourceTree = "<group>"; };
+		3DECE1521F6A5F5700538D2B /* HGRouterTargetHostMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HGRouterTargetHostMap.plist; sourceTree = "<group>"; };
+		3DECE1561F6A69C200538D2B /* YSModuleAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSModuleAModel.h; sourceTree = "<group>"; };
+		3DECE1571F6A69C200538D2B /* YSModuleAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSModuleAModel.m; sourceTree = "<group>"; };
+		3DECE15A1F6A9E5200538D2B /* YSProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSProtocol.h; sourceTree = "<group>"; };
+		3DFD8E1D1F69197C00DFA779 /* moduleConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moduleConst.h; sourceTree = "<group>"; };
+		3DFD8E1F1F69268300DFA779 /* YSURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSURLGenerator.h; sourceTree = "<group>"; };
+		3DFD8E201F69268300DFA779 /* YSURLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSURLGenerator.m; sourceTree = "<group>"; };
+		3FFD5DE8D9DD754FAD8785D2 /* libPods-YS_HGRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YS_HGRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DBC2B9557ADA6F3AFA55FF /* libPods-YS_HGRouterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YS_HGRouterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6091517C6BB4F582306520 /* libPods-YS_HGRouterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YS_HGRouterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F167FDC20C71525B01FF006 /* Pods-YS_HGRouterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemoUITests/Pods-YS_HGRouterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95606B1773256B85CBEF678E /* Pods-YS_HGRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemo/Pods-YS_HGRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B1D2067E2F3C80C5A7A59EE7 /* Pods-YS_HGRouterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemoTests/Pods-YS_HGRouterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B925684C8A559CE9FA03A17D /* Pods-YS_HGRouterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemoTests/Pods-YS_HGRouterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC645723E9C191DBFBE3AE2B /* Pods-YS_HGRouterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemoUITests/Pods-YS_HGRouterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A33B563E7738D6F6EF02DC /* Pods-YS_HGRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YS_HGRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YS_HGRouterDemo/Pods-YS_HGRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB0A6BA1F68D355009D41CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539F42456BAF0017C0039088 /* libPods-YS_HGRouterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6D31F68D355009D41CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35C6489E78BBD1CAC1954E2 /* libPods-YS_HGRouterDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6DE1F68D355009D41CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14980823348C706AD835F42B /* libPods-YS_HGRouterDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3671771F6B7C1A00C739D6 /* YSCustomeView */ = {
+			isa = PBXGroup;
+			children = (
+				3D3671781F6B7C4700C739D6 /* YSMaskView.h */,
+				3D3671791F6B7C4700C739D6 /* YSMaskView.m */,
+			);
+			name = YSCustomeView;
+			sourceTree = "<group>";
+		};
+		3D36717E1F6BC35D00C739D6 /* HGMediator */ = {
+			isa = PBXGroup;
+			children = (
+				3D36717F1F6BC37300C739D6 /* HGMediator.h */,
+				3D3671801F6BC37300C739D6 /* HGMediator.m */,
+				3D3671821F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.h */,
+				3D3671831F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m */,
+			);
+			name = HGMediator;
+			sourceTree = "<group>";
+		};
+		3D5CDFDF1F6910CF00529C14 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				3DECE1551F6A69AC00538D2B /* Model */,
+				3DECE1481F694D9D00538D2B /* ViewControllers */,
+				3DECE14F1F6A39CD00538D2B /* Target_kModuleA.h */,
+				3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */,
+			);
+			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		3DB0A6B41F68D355009D41CE = {
+			isa = PBXGroup;
+			children = (
+				3DB0A6BF1F68D355009D41CE /* YS_HGRouterDemo */,
+				3DB0A6D91F68D355009D41CE /* YS_HGRouterDemoTests */,
+				3DB0A6E41F68D355009D41CE /* YS_HGRouterDemoUITests */,
+				3DB0A6BE1F68D355009D41CE /* Products */,
+				8185B1E5E6669E4D8D36D88C /* Pods */,
+				869010BB5454C16E878DB2DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB0A6BE1F68D355009D41CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0A6BD1F68D355009D41CE /* YS_HGRouterDemo.app */,
+				3DB0A6D61F68D355009D41CE /* YS_HGRouterDemoTests.xctest */,
+				3DB0A6E11F68D355009D41CE /* YS_HGRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB0A6BF1F68D355009D41CE /* YS_HGRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D36717E1F6BC35D00C739D6 /* HGMediator */,
+				3D3671771F6B7C1A00C739D6 /* YSCustomeView */,
+				3DECE1591F6A9DE500538D2B /* YSProtocol */,
+				3DFD8E1E1F6925FE00DFA779 /* YSUtility */,
+				3D5CDFDF1F6910CF00529C14 /* ModuleA */,
+				3DB0A6C31F68D355009D41CE /* AppDelegate.h */,
+				3DB0A6C41F68D355009D41CE /* AppDelegate.m */,
+				3DB0A6C61F68D355009D41CE /* ViewController.h */,
+				3DB0A6C71F68D355009D41CE /* ViewController.m */,
+				3DB0A6C91F68D355009D41CE /* Main.storyboard */,
+				3DB0A6CC1F68D355009D41CE /* Assets.xcassets */,
+				3DB0A6CE1F68D355009D41CE /* LaunchScreen.storyboard */,
+				3DB0A6D11F68D355009D41CE /* Info.plist */,
+				3DB0A6C01F68D355009D41CE /* Supporting Files */,
+				3DFD8E1D1F69197C00DFA779 /* moduleConst.h */,
+			);
+			path = YS_HGRouterDemo;
+			sourceTree = "<group>";
+		};
+		3DB0A6C01F68D355009D41CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0A6C11F68D355009D41CE /* main.m */,
+				3DECE1411F693E9C00538D2B /* PrefixHeader.pch */,
+				3DECE1521F6A5F5700538D2B /* HGRouterTargetHostMap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DB0A6D91F68D355009D41CE /* YS_HGRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0A6DA1F68D355009D41CE /* YS_HGRouterDemoTests.m */,
+				3DB0A6DC1F68D355009D41CE /* Info.plist */,
+			);
+			path = YS_HGRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		3DB0A6E41F68D355009D41CE /* YS_HGRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */,
+				3DB0A6E71F68D355009D41CE /* Info.plist */,
+			);
+			path = YS_HGRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		3DECE1481F694D9D00538D2B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DECE14C1F694DDE00538D2B /* YSModuleAViewController.h */,
+				3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */,
+				3D36717B1F6BBD9100C739D6 /* YSWKWebViewController.h */,
+				3D36717C1F6BBD9100C739D6 /* YSWKWebViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3DECE1551F6A69AC00538D2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DECE1561F6A69C200538D2B /* YSModuleAModel.h */,
+				3DECE1571F6A69C200538D2B /* YSModuleAModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3DECE1591F6A9DE500538D2B /* YSProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3DECE15A1F6A9E5200538D2B /* YSProtocol.h */,
+			);
+			name = YSProtocol;
+			sourceTree = "<group>";
+		};
+		3DFD8E1E1F6925FE00DFA779 /* YSUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD8E1F1F69268300DFA779 /* YSURLGenerator.h */,
+				3DFD8E201F69268300DFA779 /* YSURLGenerator.m */,
+				3DECE1421F69400A00538D2B /* YSTransitionManager.h */,
+				3DECE1431F69400A00538D2B /* YSTransitionManager.m */,
+			);
+			name = YSUtility;
+			sourceTree = "<group>";
+		};
+		8185B1E5E6669E4D8D36D88C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A33B563E7738D6F6EF02DC /* Pods-YS_HGRouterDemo.debug.xcconfig */,
+				95606B1773256B85CBEF678E /* Pods-YS_HGRouterDemo.release.xcconfig */,
+				B1D2067E2F3C80C5A7A59EE7 /* Pods-YS_HGRouterDemoTests.debug.xcconfig */,
+				B925684C8A559CE9FA03A17D /* Pods-YS_HGRouterDemoTests.release.xcconfig */,
+				BC645723E9C191DBFBE3AE2B /* Pods-YS_HGRouterDemoUITests.debug.xcconfig */,
+				7F167FDC20C71525B01FF006 /* Pods-YS_HGRouterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		869010BB5454C16E878DB2DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD5DE8D9DD754FAD8785D2 /* libPods-YS_HGRouterDemo.a */,
+				62DBC2B9557ADA6F3AFA55FF /* libPods-YS_HGRouterDemoTests.a */,
+				6A6091517C6BB4F582306520 /* libPods-YS_HGRouterDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB0A6BC1F68D355009D41CE /* YS_HGRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0A6EA1F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemo" */;
+			buildPhases = (
+				B5068D83A99A83025CD43D7D /* [CP] Check Pods Manifest.lock */,
+				3DB0A6B91F68D355009D41CE /* Sources */,
+				3DB0A6BA1F68D355009D41CE /* Frameworks */,
+				3DB0A6BB1F68D355009D41CE /* Resources */,
+				3B947B345C22C42C27098392 /* [CP] Embed Pods Frameworks */,
+				9AEBEDDDD64707865036ABA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YS_HGRouterDemo;
+			productName = YS_HGRouterDemo;
+			productReference = 3DB0A6BD1F68D355009D41CE /* YS_HGRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB0A6D51F68D355009D41CE /* YS_HGRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0A6ED1F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemoTests" */;
+			buildPhases = (
+				297C23043E5D5CC878E1924F /* [CP] Check Pods Manifest.lock */,
+				3DB0A6D21F68D355009D41CE /* Sources */,
+				3DB0A6D31F68D355009D41CE /* Frameworks */,
+				3DB0A6D41F68D355009D41CE /* Resources */,
+				62C936C07A0538DA2CE2EF72 /* [CP] Embed Pods Frameworks */,
+				DA232AA58AB12DE4C16849CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB0A6D81F68D355009D41CE /* PBXTargetDependency */,
+			);
+			name = YS_HGRouterDemoTests;
+			productName = YS_HGRouterDemoTests;
+			productReference = 3DB0A6D61F68D355009D41CE /* YS_HGRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DB0A6E01F68D355009D41CE /* YS_HGRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0A6F01F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemoUITests" */;
+			buildPhases = (
+				BE9C4EF1205E8234E6D71217 /* [CP] Check Pods Manifest.lock */,
+				3DB0A6DD1F68D355009D41CE /* Sources */,
+				3DB0A6DE1F68D355009D41CE /* Frameworks */,
+				3DB0A6DF1F68D355009D41CE /* Resources */,
+				E6ECB8B3EE05C6879986DFD8 /* [CP] Embed Pods Frameworks */,
+				057C48BB59A1525F19B48FD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB0A6E31F68D355009D41CE /* PBXTargetDependency */,
+			);
+			name = YS_HGRouterDemoUITests;
+			productName = YS_HGRouterDemoUITests;
+			productReference = 3DB0A6E11F68D355009D41CE /* YS_HGRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB0A6B51F68D355009D41CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = geys1991;
+				TargetAttributes = {
+					3DB0A6BC1F68D355009D41CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DLLTSLNW2D;
+						ProvisioningStyle = Automatic;
+					};
+					3DB0A6D51F68D355009D41CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DLLTSLNW2D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DB0A6BC1F68D355009D41CE;
+					};
+					3DB0A6E01F68D355009D41CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DLLTSLNW2D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DB0A6BC1F68D355009D41CE;
+					};
+				};
+			};
+			buildConfigurationList = 3DB0A6B81F68D355009D41CE /* Build configuration list for PBXProject "YS_HGRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB0A6B41F68D355009D41CE;
+			productRefGroup = 3DB0A6BE1F68D355009D41CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB0A6BC1F68D355009D41CE /* YS_HGRouterDemo */,
+				3DB0A6D51F68D355009D41CE /* YS_HGRouterDemoTests */,
+				3DB0A6E01F68D355009D41CE /* YS_HGRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB0A6BB1F68D355009D41CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DECE1531F6A5F5700538D2B /* HGRouterTargetHostMap.plist in Resources */,
+				3DB0A6D01F68D355009D41CE /* LaunchScreen.storyboard in Resources */,
+				3DB0A6CD1F68D355009D41CE /* Assets.xcassets in Resources */,
+				3DB0A6CB1F68D355009D41CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6D41F68D355009D41CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6DF1F68D355009D41CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057C48BB59A1525F19B48FD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemoUITests/Pods-YS_HGRouterDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297C23043E5D5CC878E1924F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YS_HGRouterDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B947B345C22C42C27098392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemo/Pods-YS_HGRouterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C936C07A0538DA2CE2EF72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemoTests/Pods-YS_HGRouterDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEBEDDDD64707865036ABA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemo/Pods-YS_HGRouterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5068D83A99A83025CD43D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YS_HGRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C4EF1205E8234E6D71217 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YS_HGRouterDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA232AA58AB12DE4C16849CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemoTests/Pods-YS_HGRouterDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6ECB8B3EE05C6879986DFD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YS_HGRouterDemoUITests/Pods-YS_HGRouterDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB0A6B91F68D355009D41CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DECE1581F6A69C200538D2B /* YSModuleAModel.m in Sources */,
+				3DB0A6C81F68D355009D41CE /* ViewController.m in Sources */,
+				3DB0A6C51F68D355009D41CE /* AppDelegate.m in Sources */,
+				3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */,
+				3D36717D1F6BBD9100C739D6 /* YSWKWebViewController.m in Sources */,
+				3D3671841F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m in Sources */,
+				3D36717A1F6B7C4700C739D6 /* YSMaskView.m in Sources */,
+				3DFD8E211F69268300DFA779 /* YSURLGenerator.m in Sources */,
+				3D3671811F6BC37300C739D6 /* HGMediator.m in Sources */,
+				3DECE1511F6A39CD00538D2B /* Target_kModuleA.m in Sources */,
+				3DECE14E1F694DDE00538D2B /* YSModuleAViewController.m in Sources */,
+				3DB0A6C21F68D355009D41CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6D21F68D355009D41CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0A6DB1F68D355009D41CE /* YS_HGRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0A6DD1F68D355009D41CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0A6E61F68D355009D41CE /* YS_HGRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB0A6D81F68D355009D41CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB0A6BC1F68D355009D41CE /* YS_HGRouterDemo */;
+			targetProxy = 3DB0A6D71F68D355009D41CE /* PBXContainerItemProxy */;
+		};
+		3DB0A6E31F68D355009D41CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB0A6BC1F68D355009D41CE /* YS_HGRouterDemo */;
+			targetProxy = 3DB0A6E21F68D355009D41CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB0A6C91F68D355009D41CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB0A6CA1F68D355009D41CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB0A6CE1F68D355009D41CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB0A6CF1F68D355009D41CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB0A6E81F68D355009D41CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DB0A6E91F68D355009D41CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB0A6EB1F68D355009D41CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A33B563E7738D6F6EF02DC /* Pods-YS_HGRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YS_HGRouterDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YS_HGRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DB0A6EC1F68D355009D41CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95606B1773256B85CBEF678E /* Pods-YS_HGRouterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YS_HGRouterDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YS_HGRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DB0A6EE1F68D355009D41CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D2067E2F3C80C5A7A59EE7 /* Pods-YS_HGRouterDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				INFOPLIST_FILE = YS_HGRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YS_HGRouterDemo.app/YS_HGRouterDemo";
+			};
+			name = Debug;
+		};
+		3DB0A6EF1F68D355009D41CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B925684C8A559CE9FA03A17D /* Pods-YS_HGRouterDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				INFOPLIST_FILE = YS_HGRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YS_HGRouterDemo.app/YS_HGRouterDemo";
+			};
+			name = Release;
+		};
+		3DB0A6F11F68D355009D41CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC645723E9C191DBFBE3AE2B /* Pods-YS_HGRouterDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				INFOPLIST_FILE = YS_HGRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YS_HGRouterDemo;
+			};
+			name = Debug;
+		};
+		3DB0A6F21F68D355009D41CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F167FDC20C71525B01FF006 /* Pods-YS_HGRouterDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DLLTSLNW2D;
+				INFOPLIST_FILE = YS_HGRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YS_HGRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB0A6B81F68D355009D41CE /* Build configuration list for PBXProject "YS_HGRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0A6E81F68D355009D41CE /* Debug */,
+				3DB0A6E91F68D355009D41CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0A6EA1F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0A6EB1F68D355009D41CE /* Debug */,
+				3DB0A6EC1F68D355009D41CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0A6ED1F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0A6EE1F68D355009D41CE /* Debug */,
+				3DB0A6EF1F68D355009D41CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0A6F01F68D355009D41CE /* Build configuration list for PBXNativeTarget "YS_HGRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0A6F11F68D355009D41CE /* Debug */,
+				3DB0A6F21F68D355009D41CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB0A6B51F68D355009D41CE /* Project object */;
+}

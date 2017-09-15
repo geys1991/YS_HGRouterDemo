@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YS_HGRouterDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YS_HGRouterDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YS_HGRouterDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9C40A5A05195E761F0B81A472DD2F99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E860DBFDF4A7872F6049CBAEAA721AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F05F86DFE379A0420B752F5EAEAC87A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6EEA304649AD1432B6175638E1BDE24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
