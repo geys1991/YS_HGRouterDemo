@@ -6,10 +6,10 @@
 //  Copyright © 2017年 geys1991. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HGBaseCustomView.h"
 
-@interface YSMaskView : UIView
+@interface YSMaskView : HGBaseCustomView
 
-- (void)show;
+
 
 @end

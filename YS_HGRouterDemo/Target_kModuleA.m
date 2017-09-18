@@ -8,7 +8,7 @@
 
 #import "Target_kModuleA.h"
 
-typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
+typedef void (^HGUrlRouterCallbackBlock)(NSDictionary *info);
 
 @implementation Target_kModuleA
 
@@ -72,14 +72,14 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
 - (id)Action_kHGRouterActionShowAlertViewController:(NSDictionary *)params
 {
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        CTUrlRouterCallbackBlock callback = params[@"cancelAction"];
+        HGUrlRouterCallbackBlock callback = params[@"cancelAction"];
         if (callback) {
             callback(@{@"alertAction":action});
         }
     }];
     
     UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"confirm" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        CTUrlRouterCallbackBlock callback = params[@"confirmAction"];
+        HGUrlRouterCallbackBlock callback = params[@"confirmAction"];
         if (callback) {
             callback(@{@"alertAction":action});
         }
@@ -122,6 +122,11 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     }
 }
 
+- (UIView *)Action_kHGRouterActionGetCustomView:(NSDictionary *)params
+{
+    // 这个地方如果 想要获取 View 的话，需要维护一个全局的 View 容器
+    return nil;
+}
 
 #pragma mark - private methods
 

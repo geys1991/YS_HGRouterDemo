@@ -14,4 +14,16 @@
 
 + (NSDictionary *)URLrResolvingToParams:(NSString *)url;
 
++ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
+
+/**
+ *  URLEncode
+ */
++ (NSString *)URLEncodedString:(NSString *)str;
+
+/**
+ *  URLDecode
+ */
++ (NSString *)URLDecodedString:(NSString *)str;
+
 @end

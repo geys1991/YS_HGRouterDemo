@@ -26,7 +26,6 @@
         jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     }
     
-    
     NSString *result = [NSString stringWithFormat: @"higo://%@.higo?params=%@", hostString, [[jsonString stringByReplacingOccurrencesOfString:@" " withString: @""] stringByReplacingOccurrencesOfString: @"\n" withString:@""]];
     
     return result;

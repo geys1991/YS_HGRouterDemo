@@ -19,7 +19,6 @@ typedef NS_ENUM(NSInteger, HGTransitionType) {
 - (UIViewController *)HGRouterGetTargetViewControllerWithUrl:(NSString *)url;
 - (UIViewController *)HGRouterGetTargetViewControllerWithUrl:(NSString *)url extraParams:(NSDictionary *)params;
 - (UIViewController *)HGRouterGetTargetViewControllerWithParams:(NSDictionary *)params;
-
 - (void)HGRouterOpenTargetViewControllerWithUrl:(NSString *)url;
 - (void)HGRouterOpenTargetViewControllerWithUrl:(NSString *)url extraParams:(NSDictionary *)params;
 - (void)HGRouterOpenTargetViewControllerWithUrl:(NSString *)url extraParams:(NSDictionary *)params complete:(void(^)())complete;
@@ -27,5 +26,8 @@ typedef NS_ENUM(NSInteger, HGTransitionType) {
 - (void)HGRouterShowAlertViewWithTitle:(NSString *)title message:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 
 - (void)HGRouterShowCustomMaskViewWithUrl:(NSString *)url complete:(void(^)(NSDictionary *info))complete;
+- (void)HGRouterShowCustomMaskViewWithUrl:(NSString *)url extraParams:(NSDictionary *)params complete:(void(^)(NSDictionary *info))complete;
+- (UIView *)HGRouterGetCustomViewWithIdentifier:(NSString *)identifier;
+
 
 @end

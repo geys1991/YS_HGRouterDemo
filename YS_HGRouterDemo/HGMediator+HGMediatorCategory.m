@@ -51,7 +51,15 @@
 
 - (void)HGRouterOpenTargetViewControllerWithUrl:(NSString *)url
 {
-    [self HGRouterOpenTargetViewControllerWithParams: [YSURLGenerator URLrResolvingToParams: url]];
+    if ( [url hasPrefix: @"higo"] || [url hasPrefix: @"HIGO"] ) {
+        // 本地原生跳转
+        [self HGRouterOpenTargetViewControllerWithParams: [YSURLGenerator URLrResolvingToParams: url]];
+    }else if([url hasPrefix: @"http"] || [url hasPrefix: @"https"] ) {
+        // 跳 H5
+        [self performActionWithUrl: [NSURL URLWithString: url] completion: nil];
+    }else{
+        // 不知道跳什么
+    }
 }
 
 - (void)HGRouterOpenTargetViewControllerWithUrl:(NSString *)url extraParams:(NSDictionary *)params
@@ -110,16 +118,39 @@
 
 - (void)HGRouterShowCustomMaskViewWithUrl:(NSString *)url complete:(void(^)(NSDictionary *info))complete
 {
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] initWithDictionary: [YSURLGenerator URLrResolvingToParams: url]];
+    [self HGRouterShowCustomMaskViewWithUrl: url extraParams: nil complete: complete];
+}
+
+- (void)HGRouterShowCustomMaskViewWithUrl:(NSString *)url extraParams:(NSDictionary *)params complete:(void (^)(NSDictionary *))complete
+{
+    NSMutableDictionary *wholeParams = [[NSMutableDictionary alloc] initWithDictionary: [YSURLGenerator URLrResolvingToParams: url]];
     
     if ( complete ) {
-        [params setValue: complete forKey: @"completeCallback"];
+        [wholeParams setValue: complete forKey: @"completeCallback"];
+    }
+    
+    if ( params ) {
+        [wholeParams addEntriesFromDictionary: params];
+    }
+    
+    BOOL shouldCacheTarget = NO;
+    if ( [params objectForKey: @"shouldCacheTarget"] != nil ) {
+        shouldCacheTarget = [[params objectForKey: @"shouldCacheTarget"] boolValue];
     }
     
     [self performTarget: kModuleA
                  action: kHGRouterActionShowCustomView
-                 params: params
-      shouldCacheTarget: NO];
+                 params: wholeParams
+      shouldCacheTarget: shouldCacheTarget];
+}
+
+- (UIView *)HGRouterGetCustomViewWithIdentifier:(NSString *)identifier
+{
+    return [self performTarget:kModuleA
+                        action:kHGRouterActionGetCustomView
+                        params:@{@"identifier" : identifier}
+             shouldCacheTarget:YES
+            ];
 }
 
 #pragma mark - private methods

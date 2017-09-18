@@ -12,6 +12,7 @@
 		3D36717D1F6BBD9100C739D6 /* YSWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36717C1F6BBD9100C739D6 /* YSWKWebViewController.m */; };
 		3D3671811F6BC37300C739D6 /* HGMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3671801F6BC37300C739D6 /* HGMediator.m */; };
 		3D3671841F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3671831F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m */; };
+		3D5F0E1C1F6FBAF200C14FE6 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5F0E1B1F6FBAF200C14FE6 /* CTMediator.m */; };
 		3DB0A6C21F68D355009D41CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C11F68D355009D41CE /* main.m */; };
 		3DB0A6C51F68D355009D41CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C41F68D355009D41CE /* AppDelegate.m */; };
 		3DB0A6C81F68D355009D41CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6C71F68D355009D41CE /* ViewController.m */; };
@@ -20,6 +21,8 @@
 		3DB0A6D01F68D355009D41CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0A6CE1F68D355009D41CE /* LaunchScreen.storyboard */; };
 		3DB0A6DB1F68D355009D41CE /* YS_HGRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6DA1F68D355009D41CE /* YS_HGRouterDemoTests.m */; };
 		3DB0A6E61F68D355009D41CE /* YS_HGRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */; };
+		3DCA07DD1F6F7CAC00562A4B /* HGBaseCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA07DC1F6F7CAC00562A4B /* HGBaseCustomView.m */; };
+		3DCA07E01F6F856800562A4B /* HGSuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA07DF1F6F856800562A4B /* HGSuspendView.m */; };
 		3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1431F69400A00538D2B /* YSTransitionManager.m */; };
 		3DECE14E1F694DDE00538D2B /* YSModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */; };
 		3DECE1511F6A39CD00538D2B /* Target_kModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */; };
@@ -56,6 +59,8 @@
 		3D3671801F6BC37300C739D6 /* HGMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGMediator.m; sourceTree = "<group>"; };
 		3D3671821F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HGMediator+HGMediatorCategory.h"; sourceTree = "<group>"; };
 		3D3671831F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HGMediator+HGMediatorCategory.m"; sourceTree = "<group>"; };
+		3D5F0E1A1F6FBAF200C14FE6 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		3D5F0E1B1F6FBAF200C14FE6 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		3DB0A6BD1F68D355009D41CE /* YS_HGRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YS_HGRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB0A6C11F68D355009D41CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DB0A6C31F68D355009D41CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +77,10 @@
 		3DB0A6E11F68D355009D41CE /* YS_HGRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YS_HGRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YS_HGRouterDemoUITests.m; sourceTree = "<group>"; };
 		3DB0A6E71F68D355009D41CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA07DB1F6F7CAC00562A4B /* HGBaseCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGBaseCustomView.h; sourceTree = "<group>"; };
+		3DCA07DC1F6F7CAC00562A4B /* HGBaseCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGBaseCustomView.m; sourceTree = "<group>"; };
+		3DCA07DE1F6F856800562A4B /* HGSuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSuspendView.h; sourceTree = "<group>"; };
+		3DCA07DF1F6F856800562A4B /* HGSuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSuspendView.m; sourceTree = "<group>"; };
 		3DECE1411F693E9C00538D2B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3DECE1421F69400A00538D2B /* YSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTransitionManager.h; sourceTree = "<group>"; };
 		3DECE1431F69400A00538D2B /* YSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTransitionManager.m; sourceTree = "<group>"; };
@@ -128,8 +137,11 @@
 		3D3671771F6B7C1A00C739D6 /* YSCustomeView */ = {
 			isa = PBXGroup;
 			children = (
+				3DCA07E11F6F857200562A4B /* HGBaseCustomView */,
 				3D3671781F6B7C4700C739D6 /* YSMaskView.h */,
 				3D3671791F6B7C4700C739D6 /* YSMaskView.m */,
+				3DCA07DE1F6F856800562A4B /* HGSuspendView.h */,
+				3DCA07DF1F6F856800562A4B /* HGSuspendView.m */,
 			);
 			name = YSCustomeView;
 			sourceTree = "<group>";
@@ -154,6 +166,23 @@
 				3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */,
 			);
 			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		3D5F0E0E1F6FBA9100C14FE6 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3D5F0E191F6FBAF200C14FE6 /* CTMediator */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		3D5F0E191F6FBAF200C14FE6 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				3D5F0E1A1F6FBAF200C14FE6 /* CTMediator.h */,
+				3D5F0E1B1F6FBAF200C14FE6 /* CTMediator.m */,
+			);
+			path = CTMediator;
 			sourceTree = "<group>";
 		};
 		3DB0A6B41F68D355009D41CE = {
@@ -181,6 +210,7 @@
 		3DB0A6BF1F68D355009D41CE /* YS_HGRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D5F0E0E1F6FBA9100C14FE6 /* vendor */,
 				3D36717E1F6BC35D00C739D6 /* HGMediator */,
 				3D3671771F6B7C1A00C739D6 /* YSCustomeView */,
 				3DECE1591F6A9DE500538D2B /* YSProtocol */,
@@ -226,6 +256,15 @@
 				3DB0A6E71F68D355009D41CE /* Info.plist */,
 			);
 			path = YS_HGRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		3DCA07E11F6F857200562A4B /* HGBaseCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA07DB1F6F7CAC00562A4B /* HGBaseCustomView.h */,
+				3DCA07DC1F6F7CAC00562A4B /* HGBaseCustomView.m */,
+			);
+			name = HGBaseCustomView;
 			sourceTree = "<group>";
 		};
 		3DECE1481F694D9D00538D2B /* ViewControllers */ = {
@@ -588,10 +627,13 @@
 				3DB0A6C51F68D355009D41CE /* AppDelegate.m in Sources */,
 				3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */,
 				3D36717D1F6BBD9100C739D6 /* YSWKWebViewController.m in Sources */,
+				3DCA07DD1F6F7CAC00562A4B /* HGBaseCustomView.m in Sources */,
+				3D5F0E1C1F6FBAF200C14FE6 /* CTMediator.m in Sources */,
 				3D3671841F6BC3E000C739D6 /* HGMediator+HGMediatorCategory.m in Sources */,
 				3D36717A1F6B7C4700C739D6 /* YSMaskView.m in Sources */,
 				3DFD8E211F69268300DFA779 /* YSURLGenerator.m in Sources */,
 				3D3671811F6BC37300C739D6 /* HGMediator.m in Sources */,
+				3DCA07E01F6F856800562A4B /* HGSuspendView.m in Sources */,
 				3DECE1511F6A39CD00538D2B /* Target_kModuleA.m in Sources */,
 				3DECE14E1F694DDE00538D2B /* YSModuleAViewController.m in Sources */,
 				3DB0A6C21F68D355009D41CE /* main.m in Sources */,
@@ -748,7 +790,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YS_HGRouterDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = YS_HGRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"JSONModel\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -763,7 +816,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YS_HGRouterDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = YS_HGRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"JSONModel\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Geys1991.YS-HGRouterDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

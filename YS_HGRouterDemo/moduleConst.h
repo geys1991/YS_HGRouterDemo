@@ -41,6 +41,7 @@ static __inline__ CGFloat MainScreenHeight()
 
 #define kHGRouterActionShowAlertViewController @"kHGRouterActionShowAlertViewController" // 弹出 AlertView
 
+#define kHGRouterActionGetCustomView @"kHGRouterActionGetCustomView" // 返回 CustomView
 #define kHGRouterActionShowCustomView @"kHGRouterActionShowCustomView" // 弹出 CustomView
 
 

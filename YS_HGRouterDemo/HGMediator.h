@@ -6,8 +6,9 @@
 //  Copyright © 2017年 geys1991. All rights reserved.
 //
 
-#import <CTMediator/CTMediator.h>
+#import "CTMediator.h"
 
 @interface HGMediator : CTMediator
 
 @end
+
