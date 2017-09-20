@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Archimedes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +34,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveCocoaLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveViewModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>WebViewJavascriptBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +62,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>17E63E310CCC125ECDB4BA977FD10D07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4989A7009CA94F8FBE609E082313FF56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A9B75B9C48EF534F06A07A27781A9B7</key>
+		<key>65443D3A3F7EF7A07A8CCB23B45C549A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E1225DC8C0301297C9C0000B19C910A</key>
+		<key>65ABBD878EC59554A6ABD1E856057543</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +97,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D63D705525D2994BA74958F6AE94CD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9852BDC8608A3B58F7DCB77CA8B021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F05F86DFE379A0420B752F5EAEAC87A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F57E9B532CFA59331A94D8FA0B757525</key>
 		<dict>
 			<key>primary</key>
 			<true/>

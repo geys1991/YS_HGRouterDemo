@@ -46,33 +46,38 @@
         
     }
     
-    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, (self.view.bounds.size.height - 64))
+    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)
                                         configuration:config];
     
     self.webView.allowsBackForwardNavigationGestures = YES;
     self.webView.UIDelegate = self;
 
-//    NSURL *webURL = [NSURL URLWithString: self.url];
+    self.webView.navigationDelegate = self;
 
     [self.webView loadRequest:[NSURLRequest requestWithURL:self.url]];
     [self.view addSubview:self.webView];
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+#pragma mark - UINavigationDelegate
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
+{
+    if ( [[navigationAction.request.URL absoluteString] containsString: @"243186478932011005"] ) {
+        
+        NSString *paramsString = [YSURLGenerator URLGenerateByHostString: @"YSDetailViewController" Params: nil];
+        [[HGMediator sharedInstance] HGRouterOpenTargetViewControllerWithUrl: paramsString];
+        
+        decisionHandler(WKNavigationActionPolicyCancel);
+    }else
+    {
+        decisionHandler(WKNavigationActionPolicyAllow);
+    }
 }
-*/
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationResponse:(WKNavigationResponse *)navigationResponse decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler
+{
+    decisionHandler(WKNavigationResponsePolicyAllow);
+}
 
 #pragma mark - setter && getter
 

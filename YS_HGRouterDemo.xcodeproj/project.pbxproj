@@ -23,6 +23,7 @@
 		3DB0A6E61F68D355009D41CE /* YS_HGRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A6E51F68D355009D41CE /* YS_HGRouterDemoUITests.m */; };
 		3DCA07DD1F6F7CAC00562A4B /* HGBaseCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA07DC1F6F7CAC00562A4B /* HGBaseCustomView.m */; };
 		3DCA07E01F6F856800562A4B /* HGSuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA07DF1F6F856800562A4B /* HGSuspendView.m */; };
+		3DD295951F70C19A008ABE27 /* YSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD295941F70C19A008ABE27 /* YSDetailViewController.m */; };
 		3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1431F69400A00538D2B /* YSTransitionManager.m */; };
 		3DECE14E1F694DDE00538D2B /* YSModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */; };
 		3DECE1511F6A39CD00538D2B /* Target_kModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE1501F6A39CD00538D2B /* Target_kModuleA.m */; };
@@ -81,6 +82,8 @@
 		3DCA07DC1F6F7CAC00562A4B /* HGBaseCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGBaseCustomView.m; sourceTree = "<group>"; };
 		3DCA07DE1F6F856800562A4B /* HGSuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSuspendView.h; sourceTree = "<group>"; };
 		3DCA07DF1F6F856800562A4B /* HGSuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSuspendView.m; sourceTree = "<group>"; };
+		3DD295931F70C19A008ABE27 /* YSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDetailViewController.h; sourceTree = "<group>"; };
+		3DD295941F70C19A008ABE27 /* YSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDetailViewController.m; sourceTree = "<group>"; };
 		3DECE1411F693E9C00538D2B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3DECE1421F69400A00538D2B /* YSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTransitionManager.h; sourceTree = "<group>"; };
 		3DECE1431F69400A00538D2B /* YSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTransitionManager.m; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 				3DECE14D1F694DDE00538D2B /* YSModuleAViewController.m */,
 				3D36717B1F6BBD9100C739D6 /* YSWKWebViewController.h */,
 				3D36717C1F6BBD9100C739D6 /* YSWKWebViewController.m */,
+				3DD295931F70C19A008ABE27 /* YSDetailViewController.h */,
+				3DD295941F70C19A008ABE27 /* YSDetailViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -623,6 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DECE1581F6A69C200538D2B /* YSModuleAModel.m in Sources */,
+				3DD295951F70C19A008ABE27 /* YSDetailViewController.m in Sources */,
 				3DB0A6C81F68D355009D41CE /* ViewController.m in Sources */,
 				3DB0A6C51F68D355009D41CE /* AppDelegate.m in Sources */,
 				3DECE1441F69400A00538D2B /* YSTransitionManager.m in Sources */,

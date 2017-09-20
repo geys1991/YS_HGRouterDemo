@@ -3,14 +3,31 @@
 	1. 跳转方式全部使用 URL 的方式，这一方面主要是为了兼容 HGURLManager 的 openUrl 这种方式。统一成一种方式。
 	2. 基于 CTMediator，并且不修改源代码.所以整个方案综合了 MGJRouter 和 CTMediator 两种思路
 
-
-## 区分本地调用和远程调用
-1. 本地跳转指 native -> native.
-2. 远程跳转指 native -> H5
+## 跳转方式
+1.  native -> native.
+2.  native -> H5
+3. 	 H5 -> native
 
 * 其中部分 API 的使用方法不同
 	1. native -> native. 这中跳转方法很清楚，使用 HGRouterOpenTargetViewControllerWithUrl 即可，需要是添加额外参数。不过，需要注意的是，跳转 URL 的 scheme 是 higo:// ,这也是用于区分两种跳转的方法。
 	2. native -> H5 因为本质上也是想一个 视图控制器跳转，所以方法是统一成一个的也是，HGRouterOpenTargetViewControllerWithUrl， 不过在传值的时候需要注意，是带有 http 或者https 前缀的 url 字符串。
+	3. H5 -> native 这种跳转实际上就是拦截 WKWebView 的原生跳转，执行原生的跳转即可。
+
+```
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
+{	//  判断条件
+    if ( [[navigationAction.request.URL absoluteString] containsString: @"243186478932011005"] ) {
+        
+        NSString *paramsString = [YSURLGenerator URLGenerateByHostString: @"YSDetailViewController" Params: nil];
+        [[HGMediator sharedInstance] HGRouterOpenTargetViewControllerWithUrl: paramsString];
+        
+        decisionHandler(WKNavigationActionPolicyCancel);
+    }else
+    {
+        decisionHandler(WKNavigationActionPolicyAllow);
+    }
+}
+```
 
 
 ## 部分说明
@@ -30,7 +47,7 @@
 	* 也就是说，在自定义 View 的时候一定要注意的两点：
 		1. 弹出方法<font color=red>-(void)show;</font>
 		2. 参数设置 参考视图控制器的参考，需要实现 params 的 setter 方法。
-		3. 回调方面，统一使用 <font color=red>@property (nonatomic, copy) void(^completeCallback)(NSDictionary *info);</font>来完成回调，回调数据 统一使用字典来包装。在有多个回调的情况下，现在看来是使用回调参数 ***info*** 来做判断（目前的想法是这样的，当然也可以使用 delegate）。
+		3. 回调方面，统一使用 <font color=red>@property (nonatomic, copy) void(^completeCallback)(NSDictionary *info);</font>来完成回调，回调数据 统一使用字典来包装。在有多个回调的情况下，现在看来是使用回调参数 ***<font color=red>info</font>*** 来做判断（目前的想法是这样的，当然也可以使用 delegate）。
 	
 
 
@@ -84,3 +101,5 @@
 8. [组件化架构漫谈](http://www.jianshu.com/p/67a6004f6930)
 9. [iOS组件化思路－大神博客研读和思考](http://www.jianshu.com/p/afb9b52143d4)
 10. [iOS应用架构谈 组件化方案](https://casatwy.com/iOS-Modulization.html)
+
+Demo：  [HGRouter](https://github.com/geys1991/YS_HGRouterDemo)

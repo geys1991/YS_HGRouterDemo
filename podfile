@@ -11,6 +11,12 @@ target 'YS_HGRouterDemo' do
 pod 'JSONModel', '~> 1.7.0'
 pod 'Masonry', '~> 1.0.2'
 pod 'YYKit', '~> 1.0.9'
+pod 'WebViewJavascriptBridge',          "~> 5.0.5"
+
+pod 'ReactiveCocoa'
+pod 'ReactiveViewModel', 				"~> 0.3"
+pod 'ReactiveCocoaLayout', 				"~> 0.4"
+
   target 'YS_HGRouterDemoTests' do
     inherit! :search_paths
     # Pods for testing

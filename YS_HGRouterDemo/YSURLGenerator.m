@@ -12,18 +12,22 @@
 
 + (NSString *)URLGenerateByHostString:(NSString *)hostString Params:(NSDictionary *)params
 {
-    if ( !params ) {
-        return @"";
-    }
+    
     NSString *jsonString = nil;
-    NSError *error;
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject: params
-                                                       options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
-                                                         error:&error];
-    if (! jsonData) {
-        NSLog(@"Got an error: %@", error);
-    } else {
-        jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    
+    if ( !params ) {
+        jsonString = @"";
+    }else{
+        NSError *error;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject: params
+                                                           options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
+                                                             error:&error];
+        if (! jsonData) {
+            NSLog(@"Got an error: %@", error);
+            return @"";
+        } else {
+            jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        }
     }
     
     NSString *result = [NSString stringWithFormat: @"higo://%@.higo?params=%@", hostString, [[jsonString stringByReplacingOccurrencesOfString:@" " withString: @""] stringByReplacingOccurrencesOfString: @"\n" withString:@""]];
@@ -45,12 +49,8 @@
         urlTransformer = [[NSURL alloc] initWithString: [url stringByAddingPercentEncodingWithAllowedCharacters: allowedCharacters]];  
     }
     
-//    NSLog(@"scheme : %@, resourceSpecifier : %@, host : %@, port : %@, user : %@, password : %@, path : %@, fragment : %@, parameterString : %@, query : %@, relativePath : %@", urlTransformer.scheme, urlTransformer.resourceSpecifier, urlTransformer.host,urlTransformer.port, urlTransformer.user, urlTransformer.password, urlTransformer.path, urlTransformer.fragment, urlTransformer.parameterString, urlTransformer.query, urlTransformer.relativePath);
-    
     NSString *targetStr = [[urlTransformer.host componentsSeparatedByString: @"."] firstObject];
-    
     NSString *queryJsonString = [[[self URLDecodedString: urlTransformer.query] componentsSeparatedByString: @"="] lastObject];
-    
     NSMutableDictionary *queryDic = [NSMutableDictionary dictionaryWithDictionary: [self dictionaryWithJsonString: queryJsonString]];
     [queryDic setValue: targetStr forKey: @"Target"];
     

@@ -14,7 +14,7 @@
 
 #import "YSMaskView.h"
 #import "HGMediator.h"
-#import "HGMediator+HGMediatorCategory.h"
+
 
 #import <YYKit/NSString+YYAdd.h>
 
@@ -80,7 +80,7 @@
     switch (selectedIndex) {
         case 0:
         {
-            NSString *paramsString = [YSURLGenerator URLGenerateByHostString: @"ModuleATarget_YSModuleAViewController" Params: ppp];
+            NSString *paramsString = [YSURLGenerator URLGenerateByHostString: @"ModuleATarget_YSModuleAViewController" Params: nil];
             [[HGMediator sharedInstance] HGRouterOpenTargetViewControllerWithUrl: paramsString];
         }
             break;
